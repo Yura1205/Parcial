@@ -23,7 +23,7 @@
     height: 500px;
     background-color: rgba(192, 184, 153,0.9);
     border-radius: 30px;
-    border: 5px solid brown;
+    box-shadow: 10px 10px 10px burlywood;
 }
 
 .form-signin {
@@ -39,8 +39,15 @@
     color: rgb(82, 80, 70);
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
+}
+.form-signin h4{
+
+    font-size: 21px;
+    color: rgb(82, 80, 70);
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .form-signin input {

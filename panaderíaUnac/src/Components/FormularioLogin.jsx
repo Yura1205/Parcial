@@ -45,6 +45,7 @@ function FormularioLogin() {
         <section className="form-container">
           <form className="form-signin">
             <h1>Iniciar Sesión</h1>
+            <h4>Bienvenido, por favor ingresa tu usuario y contraseña para continuar</h4>
             <div className="my-14 mx-0">
               <input
                 onChange={(e) => {
