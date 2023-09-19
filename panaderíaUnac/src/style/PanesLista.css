@@ -1,0 +1,44 @@
+.main-listaPanes {
+    background-color: #d4ccab;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    place-items: center;
+    margin-top: 1rem;
+    user-select: none;
+}
+
+.casillas {
+    font-size: 1.875rem;
+    margin-bottom: 0.75rem;
+    background-color: #faf8e8;
+    border-width: 2px;
+    display: flex;
+    border: 3px solid rgb(208, 192, 126);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 480px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in
+}
+
+.casillas:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+}
+
+.imagenes{
+    width: 220px;
+    height: auto;
+}
+
+.nombres-pan{
+    color: black
+}
+
+.precio{
+    color: green
+}

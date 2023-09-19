@@ -1,0 +1,9 @@
+.boton-login{
+    background-color: rgb(82, 80, 70);
+    color: rgb(217, 214, 202);
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+}
